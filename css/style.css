@@ -1,0 +1,196 @@
+/**
+ * Place your custom styles here.
+ */
+
+
+/**
+*  Global page template styles
+*/
+
+body{
+    font-size: 14px;
+    font-family: 'Trebuchet MS','Helvetica Neue',Arial,Helvetica,sans-serif;
+} 
+
+.main-container.container-fluid{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/**
+*  Navbar, header styles
+*/
+#navbar {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+
+#navbar .container-fluid{
+  padding: 0 15px;
+  background-image:  url(../img/header-tile.png);
+
+}
+
+
+/*
+#block-search-form {
+  width:250px;
+  padding-top:3px;
+  height:40px;
+}
+
+#block-system-navigation {
+  float: left;
+}
+*/
+
+#navbar .block-search{
+  width:250px;
+  padding-top:3px;
+  height:40px;
+}
+
+#navbar .block-system{
+  float: left;
+}
+#navbar div.region-menu{
+  width:100%;
+  vertical-align: middle;
+}
+
+#navbar div.region-menu{
+  display: inline-block;
+  width: 100%;
+  background-color: #9C9FDA;
+}
+
+#navbar div.region-menu a{
+  color: white;
+}
+
+#navbar div.region-menu .open>a{
+  color: black;
+}
+
+#navbar div.region-menu a:hover{
+  color: black;
+}
+
+#navbar div.region-menu ul.dropdown-menu{
+  background-color: #C3C5E7;
+}
+
+#navbar div.region-menu ul.dropdown-menu a{
+  color: black;
+}
+
+#navbar div.region-menu ul.dropdown-menu a{
+  color: white;
+  background-color: #C3C5E7;
+}
+
+#logo a {
+  color: white;
+  font-weight: bold;
+}
+
+#logo {
+  min-width: 512px;
+  background-image:  url(../img/header.png);
+}
+
+.page-header{
+  margin: 0 0 20px;
+}
+
+.region-menu .nav>li {
+ display: inline-block;
+}
+
+/**
+* Block styles
+*/
+.block-title.collapsiblock {
+  background-color: #C3C5E7;
+  border-radius: 8px 8px 0 0;
+  color: black;
+  font-size: 20px;
+}
+
+.block-title.collapsiblock a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/**
+* Form display styles
+*/
+.field-widget-elog-taxonomy-select2{
+  margin-top: 5px;
+}
+
+.field-widget-elog-taxonomy-select2 div.select2-container {
+  display: inline-block;
+}
+
+.table-responsive {
+  overflow-x: visible !important;
+}
+
+#elog-form-advanced-filters .form-control{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  width: auto;
+}
+
+#elog-form-advanced-filters .form-group{
+  margin-bottom: 5px;
+}
+
+#elog-form-advanced-filters div.form-item{
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+/**
+*  Logentry node styles
+*/
+
+.prev-next{
+  margin-top: 8px;
+}
+.nav-tabs{
+  margin-bottom: 8px;
+}
+
+article .panel-title a{
+  color: #337ab7;
+}
+
+table.field-vitals{
+   margin-top: 1em;
+   margin-bottom: 1em;
+   font-size: 87.5%;
+}
+
+table.field-vitals th{
+   vertical-align: middle;
+   text-align: left;
+   width: 15%;
+   padding: 0.1em;
+}
+
+table.field-vitals td{
+   vertical-align: middle;
+   text-align: left;
+   width: auto;
+   padding: 0.1em;
+}
+table.field-vitals td li {
+  margin-left: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
