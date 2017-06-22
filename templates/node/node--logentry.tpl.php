@@ -101,7 +101,7 @@
   </header>
   <?php endif; ?>
 
-  <?php if ($comment_count > 0) : ?>
+  <?php if (isset($comment_count) && $comment_count > 0) : ?>
       <?php if ($comment_count == 1) : ?>
         <a href="#comments-wrapper" data-toggle="collapse">There is 1 comment</a>
       <?php else : ?>
