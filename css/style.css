@@ -33,6 +33,33 @@ body{
 }
 
 
+/**
+ * User login block in footer.
+ */
+#block-user-login {
+    margin: 0.2em;
+    text-align: right;
+}
+#block-user-login .block-title {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+#block-user-login .form-control {
+width: 6em;
+}
+#block-user-login .content * {
+    display: inline;
+}
+#block-user-login .form-item {
+    margin-left: 1em;
+}
+#block-user-login .form-actions {
+    margin-left: 1em;
+}
+
+
 /*
 #block-search-form {
   width:250px;
