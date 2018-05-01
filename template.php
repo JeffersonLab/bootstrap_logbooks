@@ -141,7 +141,7 @@ function bootstrap_logbooks_image(&$vars) {
     }
 
     // Make the URL relative rather than absolute
-    if ($_SERVER['HTTPS'] == 'on') {
+    if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
       $strip = 'https://' . $_SERVER['SERVER_NAME'];
     }  else {
        $strip = 'http://' . $_SERVER['SERVER_NAME'];
