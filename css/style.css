@@ -143,11 +143,34 @@ width: 6em;
   border-radius: 8px 8px 0 0;
   color: black;
   font-size: 20px;
+  margin-bottom: 0;
+  padding: 2px 5px;
 }
 
 .block-title.collapsiblock a{
   text-decoration: none;
   color: whitesmoke;
+}
+
+
+#block-elog-elog-daterange>div.content,
+#block-elog-elog-display-settings>div.content,
+#block-elog-elog-advanced-filters>div.content
+{
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+    border-radius: 0 0 8px 8px;
+    padding: 5px 10px;
+}
+
+#block-system-main div.content
+{
+
+}
+
+#block-elog-elog-datepicker>div.content{
+
 }
 
 /**
